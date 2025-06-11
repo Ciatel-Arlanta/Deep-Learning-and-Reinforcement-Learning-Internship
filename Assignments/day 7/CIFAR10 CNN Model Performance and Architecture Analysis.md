@@ -35,6 +35,7 @@ This notebook details the process of building a **Convolutional Neural Network (
 |**Regularization**|Dropout (0.25, 0.4, 0.5) and BatchNormalization.|
 |**Final Downsampling**|Not applicable, uses `Flatten`.|
 
+![image](https://github.com/user-attachments/assets/adee1b85-e6ff-4d78-a679-f4a5deb52986)
 
 ### **Learnings**
 
@@ -84,6 +85,8 @@ This notebook uses **transfer learning** with the pre-trained **MobileNetV2** mo
 |**Learning Rate Schedule**|`ReduceLROnPlateau`, monitoring validation loss with a patience of 3 and factor of 0.5.|
 |**Regularization**|Dropout (0.5), L2(0.001), and BatchNormalization.|
 |**Data Augmentation**|`ImageDataGenerator` with rotation, width and height shifts, horizontal flip, and zoom.|
+
+![image](https://github.com/user-attachments/assets/874409df-0707-41a0-95f5-3030170b6e88)
 
 
 ### **Learnings**
